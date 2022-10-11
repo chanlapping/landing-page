@@ -89,6 +89,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 64px;
+    margin-bottom: 140px;
 }
 
 .info-img {
@@ -101,4 +102,25 @@ button {
 
 .info-subtext {
     width: 160px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 140px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
+    margin: auto;
+}
+
+.thor {
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+    font-style: normal;
 }
