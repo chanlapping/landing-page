@@ -12,7 +12,8 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    width: 1080px;
+    margin: 0 auto 80px auto;
 }
 
 .logo {
@@ -38,6 +39,7 @@ body {
 .hero {
     display: flex;
     gap: 80px;
+    justify-content: center;
     margin-bottom: 80px;
 }
 
@@ -64,7 +66,7 @@ button {
 
 .hero-text,
 .hero-img {
-    flex: 1;
+    width: 500px;
 }
 
 .hero-img {
@@ -73,4 +75,30 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-block: 50px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.info-subtext {
+    width: 160px;
 }
